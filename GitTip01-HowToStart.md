@@ -28,7 +28,7 @@
   - ```git add [filename]``` - To stage(propose changes) the file(s)
   - ```git commit -m [my comments]``` - To commit files staged to the HEAD, but not in your remote repo yet
   - ```git push origin master``` - To send the changes in the local repo(HEAD) to master.
-  - ```git push``` - To send the changes in the remote origin repo (you may check it by git remote show origin.)
+  - ```git push``` - To send the changes in the remote repo (you may check it by git remote show origin.)
   - ```git remote add origin [repo URL]``` - If you have cloned an existing repo and want to connect your repo to a remote server, add it with this command. Then you now push your changes to the selected remote server.
   - ```git checkout -b bugfix5``` To create a new branch named "bugfix5" and switch to it
   - ```git checkout master``` - To switch back to master
