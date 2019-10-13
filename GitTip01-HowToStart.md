@@ -82,3 +82,18 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\W' adds the name of the current directory
 export PS1="$purple\u$green\$(__git_ps1)$yellow \W $ $reset"
 ```
+
+# How to start quick
+
+## create a new repository on the command line
+echo "# HuStarx" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/idebtor/HuStarx.git
+git push -u origin master
+
+## …or push an existing repository from the command line
+git remote add origin https://github.com/idebtor/HuStarx.git
+git push -u origin master
+
