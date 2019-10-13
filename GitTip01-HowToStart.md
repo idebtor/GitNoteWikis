@@ -85,6 +85,7 @@ export PS1="$purple\u$green\$(__git_ps1)$yellow \W $ $reset"
 
 # How to start quick
 
+For example: if "HuStarx" is a new repository... and 
 ## create a new repository on the command line
 echo "# HuStarx" >> README.md
 git init
